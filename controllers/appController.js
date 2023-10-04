@@ -98,7 +98,12 @@ const getBill = (req, res) => {
   //res.status(201).json("Get Bill Success!");
 };
 
+const test = (req, res) => {
+  return res.send("Hello world");
+}
+
 module.exports = {
   signUp,
   getBill,
+  test,
 };
